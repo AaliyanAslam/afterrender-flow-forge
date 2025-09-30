@@ -133,7 +133,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium">Email</div>
-                    <div className="text-muted-foreground">contact@afterrender.com</div>
+                    <div className="text-muted-foreground">video@afterrender.com</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">

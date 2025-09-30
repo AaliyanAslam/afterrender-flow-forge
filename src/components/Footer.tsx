@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
              
-                     <img className='h-5 w-40' src="image.png" alt="" />
+                     <img className='h-5 w-40' src="logo.png" alt="" />
 
             </div>
             <p className="text-muted-foreground">
@@ -84,7 +84,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span className="text-sm">contact@afterrender.com</span>
+                <span className="text-sm">video@afterrender.com</span>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <Phone className="w-4 h-4 flex-shrink-0" />

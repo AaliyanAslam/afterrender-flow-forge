@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Zap } from 'lucide-react';
 import { Button } from './ui/button';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +41,11 @@ const Navigation = () => {
           <div className="flex items-center space-x-2">
         
             {/* <span className="text-xl font-bold gradient-text">AfterRender</span> */}
-            <img className='h-5 w-40' src="image.png" alt="" />
+           <div onClick={() => scrollToSection('#home')} className='cursor-pointer'>
+
+              <img className='h-5 w-40' src="logo.png" alt="" />
+           </div>
+            
           </div>
 
           {/* Desktop Navigation */}
