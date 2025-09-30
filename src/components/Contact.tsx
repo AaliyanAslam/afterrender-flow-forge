@@ -33,7 +33,7 @@ const Contact = () => {
 
   const openWhatsApp = () => {
     const message = encodeURIComponent("Hi! I'm interested in learning more about your N8N automation services.");
-    window.open(`https://wa.me/03235100033?text=${message}`, '_blank');
+    window.open(`https://wa.me/+923235100033?text=${message}`, '_blank');
   };
 
   return (
@@ -142,7 +142,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium">Phone</div>
-                    <div className="text-muted-foreground">+92 323 5100033</div>
+                    <div className="text-muted-foreground">+923235100033</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
