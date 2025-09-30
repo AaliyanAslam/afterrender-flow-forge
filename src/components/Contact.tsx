@@ -33,7 +33,7 @@ const Contact = () => {
 
   const openWhatsApp = () => {
     const message = encodeURIComponent("Hi! I'm interested in learning more about your N8N automation services.");
-    window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/03235100033?text=${message}`, '_blank');
   };
 
   return (
@@ -133,7 +133,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium">Email</div>
-                    <div className="text-muted-foreground">hello@afterrender.com</div>
+                    <div className="text-muted-foreground">contact@afterrender.com</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -142,7 +142,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium">Phone</div>
-                    <div className="text-muted-foreground">+1 (555) 123-4567</div>
+                    <div className="text-muted-foreground">+92 323 5100033</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -151,7 +151,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium">Location</div>
-                    <div className="text-muted-foreground">San Francisco, CA</div>
+                    <div className="text-muted-foreground">Karachi , RJ Mall Gate No 3</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -160,7 +160,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium">Business Hours</div>
-                    <div className="text-muted-foreground">Mon-Fri 9AM-6PM PST</div>
+                    <div className="text-muted-foreground">Mon-Fri 11AM-6PM PST</div>
                   </div>
                 </div>
               </div>

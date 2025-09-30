@@ -38,10 +38,9 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="p-2 rounded-lg bg-gradient-to-r from-primary to-secondary">
-              <Zap className="w-6 h-6 text-primary-foreground" />
-            </div>
-            <span className="text-xl font-bold gradient-text">AfterRender</span>
+        
+            {/* <span className="text-xl font-bold gradient-text">AfterRender</span> */}
+            <img className='h-5 w-40' src="image.png" alt="" />
           </div>
 
           {/* Desktop Navigation */}

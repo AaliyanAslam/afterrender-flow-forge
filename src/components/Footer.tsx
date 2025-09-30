@@ -16,10 +16,9 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="p-2 rounded-lg bg-gradient-to-r from-primary to-secondary">
-                <Zap className="w-6 h-6 text-primary-foreground" />
-              </div>
-              <span className="text-xl font-bold gradient-text">AfterRender</span>
+             
+                     <img className='h-5 w-40' src="image.png" alt="" />
+
             </div>
             <p className="text-muted-foreground">
               Transforming businesses through intelligent N8N automation workflows. 
@@ -85,15 +84,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span className="text-sm">hello@afterrender.com</span>
+                <span className="text-sm">contact@afterrender.com</span>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span className="text-sm">+1 (555) 123-4567</span>
+                <span className="text-sm">+92 323 5100033</span>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <MapPin className="w-4 h-4 flex-shrink-0" />
-                <span className="text-sm">San Francisco, CA</span>
+                <span className="text-sm">Karachi , RJ Mall Gate No 3</span>
               </div>
             </div>
           </div>
